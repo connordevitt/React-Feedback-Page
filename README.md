@@ -1,6 +1,6 @@
-# Setting Up a Modern React Project Using Vite
+# React Feedback Page
 
-Follow these steps to create a modern React app with Vite and get the development server running.
+Follow these steps to setup the React feedback page.
 
 ## Steps to Set Up
 
