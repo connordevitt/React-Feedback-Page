@@ -5,7 +5,9 @@ import FeedbackForm from '../components/FeedbackForm';
 const FeedbackPage = () => {
     return (
         <div>
-            <h2>Let's here some Feedback!</h2>
+            <div className='text-center'>
+            <h1>Let's here some Feedback!</h1>
+            </div>
             <FeedbackForm />
         </div>
     );

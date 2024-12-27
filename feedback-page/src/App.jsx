@@ -6,7 +6,7 @@ import FeedbackPage from "./pages/FeedbackPage";
 function App() {
   return (
     <div className="App">
-      <header className="App-header bg-primary text-white text-center py-4">
+      <header className="App-header bg-primary text-white text-center py-1">
         <h1>React Feedback Page</h1>
         <p className="lead">We value your feedback!</p>
       </header>
@@ -19,7 +19,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="bg-dark text-white text-center py-3 mt-5">
+      <footer className="bg-dark text-white text-center py-5 mt-5">
         <p>&copy; 2024 Feedback Page. All rights reserved.</p>
       </footer>
     </div>
