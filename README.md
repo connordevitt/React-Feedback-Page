@@ -40,13 +40,13 @@ Your React app will now be running at http://localhost:5173.
 ### Project Structure
 <li> 
   src/: Contains the main application code, including components and pages.
-index.html: The HTML template for the app.
+  index.html: The HTML template for the app.
 vite.config.js: Configuration file for Vite (bundling, plugins, etc.).
 Available Scripts
 </li>
-<li></li>npm run dev: Starts the development server with hot-reloading.</li>
-<li></li>npm run build: Builds the app for production (optimized and minified).</li>
-<li></li>npm run preview: Previews the production build locally.</li>
+<li>npm run dev: Starts the development server with hot-reloading.</li>
+<li>npm run build: Builds the app for production (optimized and minified).</li>
+<li>npm run preview: Previews the production build locally.</li>
 
 ### Technologies Used
 React: JavaScript library for building user interfaces.
