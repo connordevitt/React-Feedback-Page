@@ -44,10 +44,11 @@ index.html: The HTML template for the app.
 vite.config.js: Configuration file for Vite (bundling, plugins, etc.).
 Available Scripts
 </li>
-npm run dev: Starts the development server with hot-reloading.
-npm run build: Builds the app for production (optimized and minified).
-npm run preview: Previews the production build locally.
-Technologies Used
+<li></li>npm run dev: Starts the development server with hot-reloading.</li>
+<li></li>npm run build: Builds the app for production (optimized and minified).</li>
+<li></li>npm run preview: Previews the production build locally.</li>
+
+### Technologies Used
 React: JavaScript library for building user interfaces.
 Vite: Fast build tool and development server.
 Font Awesome: For icons in the UI.
