@@ -23,13 +23,33 @@ const FeedbackForm = () => {
         } else {
             setFormError('');
             // Process form submission (could be sending data to an API. For example purposes, we'll just log the data to the console)
-            console.log(Name, email, feedback, rating);  //
-            setName('');
-            setEmail('');
-            setFeedback('');
-            setRating(0); 
-        }
-    };
+
+            try {
+                //need async function to use await
+                async function postData(url = '', data = {}) {
+                    const response = await fetch(url, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(data),
+                        }
+                    );
+                    return response.json();
+                }
+                postData('https://cors-anywhere.herokuapp.com/http://127.0.0.1:8000/submit-feedback', {
+                    Name,
+                    email,
+                    feedback,
+                    rating,
+                }).then((data) => {
+                    console.log(data);
+                })
+            } catch (error) {
+                console.error(error);
+            }
+            }
+    }
 
     return (
         <div className="container mt-4" id='feedback'>
@@ -70,7 +90,7 @@ const FeedbackForm = () => {
                     {formError}
                 </div>
             )}
-            <button type="submit" className="btn btn-primary mt-2">Submit</button>
+            <button type="submit" id="Submit-feedback" className="btn btn-primary mt-2">Submit</button>
         </form>
         </div>
         </div>
