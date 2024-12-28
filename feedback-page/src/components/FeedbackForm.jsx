@@ -37,7 +37,7 @@ const FeedbackForm = () => {
                     );
                     return response.json();
                 }
-                postData('https://cors-anywhere.herokuapp.com/http://127.0.0.1:8000/submit-feedback', {
+                postData('http://127.0.0.1:8000/submit-feedback', {
                     Name,
                     email,
                     feedback,
