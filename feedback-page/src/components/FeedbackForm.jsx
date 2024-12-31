@@ -26,7 +26,7 @@ const FeedbackForm = () => {
 
             try {
                 //need async function to use await
-                async function postData(url = '', data = {}) {
+                async function postData(url = '/submit-feedback', data = {}) {
                     const response = await fetch(url, {
                         method: 'POST',
                         headers: {
