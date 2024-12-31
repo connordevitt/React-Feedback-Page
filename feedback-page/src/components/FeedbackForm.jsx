@@ -22,7 +22,6 @@ const FeedbackForm = () => {
             setFormError('All fields are required!');
         } else {
             setFormError('');
-            // Process form submission (could be sending data to an API. For example purposes, we'll just log the data to the console)
 
             try {
                 //need async function to use await
@@ -70,7 +69,7 @@ const FeedbackForm = () => {
             </div>
             
 
-            {/* Include the Rating Component here */}
+            {/* Rating Component */}
             <div>
                 <label>Rating:</label>
                 <div> 
