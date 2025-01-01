@@ -52,11 +52,11 @@ Your React app will now be running at http://localhost:5173.
 <li>npm run preview: Previews the production build locally.</li>
 
 ### Technologies Used
-React: JavaScript library for building user interfaces.
-Vite: Fast build tool and development server.
-Font Awesome: For icons in the UI.
-Bootstrap: For responsive styling.
-npm: Package manager for managing project dependencies.
+<li>React: JavaScript library for building user interfaces.</li>
+<li>Vite: Fast build tool and development server.</li>
+<li>Font Awesome: For icons in the UI.</li>
+<li>Bootstrap: For responsive styling.</li>
+<li>npm: Package manager for managing project dependencies.</li>
 
 
 
