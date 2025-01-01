@@ -1,5 +1,4 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+submit_feedback:
+    path: /submit-feedback
+    controller: App\Controller\FeedbackController::submitFeedback
+    methods: POST
