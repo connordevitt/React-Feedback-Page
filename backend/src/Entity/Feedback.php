@@ -26,9 +26,13 @@ class Feedback
     #[ORM\Column(type: Types::DATETIME_MUTABLE)]
     private ?\DateTimeInterface $createdAt = null;
 
-    // New rating property
     #[ORM\Column(type: Types::INTEGER)]
-    private ?int $rating = null; // Add this line for rating
+    private ?int $rating = null;
+
+    public function __construct()
+    {
+        $this->createdAt = new \DateTime(); // Automatically set the createdAt field
+    }
 
     public function getId(): ?int
     {
@@ -83,13 +87,11 @@ class Feedback
         return $this;
     }
 
-    // New getter for rating
     public function getRating(): ?int
     {
         return $this->rating;
     }
 
-    // New setter for rating
     public function setRating(int $rating): static
     {
         $this->rating = $rating;
