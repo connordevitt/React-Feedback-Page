@@ -1,0 +1,12 @@
+{
+  "name": "react-feedback-page",
+  "version": "1.0.0",
+  "description": "This is a simple feedback collection page built using React. It allows users to provide feedback through a user-friendly form, including fields for their name, email, and a star rating. The page is responsive and styled with Bootstrap, and uses Font Awesome icons for an enhanced visual experience. The app is also customizable, allowing you to adjust its design to match an organization's preferred colors and branding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
