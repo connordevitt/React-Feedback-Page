@@ -47,6 +47,11 @@ const FeedbackForm = () => {
                 console.error(error);
             }
         }
+        // Clear the form
+        setName('');
+        setEmail('');
+        setFeedback('');    
+        setRating(0);
     };
 
     return (
