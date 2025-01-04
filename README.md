@@ -93,7 +93,8 @@ Your Symfony backend will now be running at http://localhost:8000.
 <li>config/: Configuration files for Symfony.</li>
 <li>migrations/: Contains DB migration files.</li>
 <li>.env: Environment variables for DB and server configuration</li>
------------------------------------------------------------------------
+
+--------------------------------------------------------------------
 
 ### Technologies Used
 <li>React: JavaScript library for building user interfaces.</li>
