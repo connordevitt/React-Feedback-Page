@@ -15,7 +15,7 @@ const FeedbackForm = () => {
         setRating(ratingValue);
     };
 
-    // Define the async function outside of handleSubmit
+    
     const postData = async (url = '/submit-feedback', data = {}) => {
         const response = await fetch(url, {
             method: 'POST',
@@ -35,14 +35,14 @@ const FeedbackForm = () => {
             setFormError('');
 
             try {
-                // Call the postData function here
+                
                 const data = await postData('http://127.0.0.1:8000/submit-feedback', {
                     Name,
                     email,
                     feedback,
                     rating,
                 });
-                console.log(data);  // Log the response from the server
+                console.log(data);  // Log the response from  server
             } catch (error) {
                 console.error(error);
             }
