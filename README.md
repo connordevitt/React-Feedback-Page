@@ -7,7 +7,7 @@ This is a full-stack feedback collection page built using React and Symfony. The
 
 - Collects user feedback with fields for name, email, feedback text, and a star rating.  
 - Responsive design with Bootstrap for styling.  
-- Backend built with Symfony to handle feedback submissions and database interactions.  
+- The backend was built with Symfony to handle feedback submissions and database interactions.  
 - Icons provided by Font Awesome.  
 - Frontend powered by Vite for a fast and efficient development environment.  
 
@@ -15,8 +15,8 @@ This is a full-stack feedback collection page built using React and Symfony. The
 Before setting up the project, make sure you have the following installed:
 - **Node.js**: Required to run the React app and install dependencies. [Download here](https://nodejs.org/).
 - **npm**: Node's package manager (installed alongside Node.js).
-- **Composer**: For managing PHP dependencies in the Symfony backend. [Download here](https://getcomposer.org/).
-- **PHP**: Required for running Symfony. Ensure it matches Symfony's requirements.
+- **Composer**: This is for managing PHP dependencies in the Symfony backend. [Download here](https://getcomposer.org/).
+- **PHP**: Required to run Symfony. Ensure it matches Symfony's requirements.
 - **SQLite**: Database used for local development.
 - **Docker** (optional): For containerized local development.
 - **Git**: Version control for cloning the repository and managing changes.
@@ -96,7 +96,7 @@ Your Symfony backend will now be running at http://localhost:8000.
 
 --------------------------------------------------------------------
 
-### Technologies Used
+### Technology Used:
 <li>React: JavaScript library for building user interfaces.</li>
 <li>Vite: Fast build tool and development server.</li>
 <li>Font Awesome: For icons in the UI.</li>
